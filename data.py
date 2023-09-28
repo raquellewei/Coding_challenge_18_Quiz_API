@@ -6,7 +6,7 @@ api = 'https://opentdb.com/api.php'
 parameters = {
     'amount': 10,
     'type': 'boolean',
-    'category': 18,
+    'category': 19, #math
 }
 
 response = requests.get(api, params=parameters)
